@@ -1,0 +1,16 @@
+CHECK
+1.2.5   system must be registered with satellite already
+2.2.1.1 verify time synchronisation is in use
+        check roles\defaults\mail.yml for time server value
+2.2.2   disable display manager
+
+SKIP
+1.2.2   rhnsd
+1.5.2   bootloader password
+1.7.1.6 remove setroubleshoot
+1.11.0  crypto policy is FUTURE or FIPS
+2.2.3   remove rsync
+3.4.1   ensure a firewall package is installed
+3.4.2   Ensure firewall is configured
+3.4.2.1 Ensure firewalld is enabled and running
+5.2.6   Disable X11 forwarding
